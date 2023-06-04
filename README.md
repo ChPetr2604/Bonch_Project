@@ -1,2 +1,2 @@
 # Bonch_Project
-Bonch Practic
+My Arduino code from summar Practic In Bonch-Bruevich University
