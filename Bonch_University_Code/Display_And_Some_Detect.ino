@@ -13,12 +13,12 @@ void setup() {
   myOLED.begin();                                        
   myOLED.setFont(MediumFont);
   Serial.begin(9600);
-  pinMode(12, OUTPUT);
-  pinMode(11, INPUT);
-  pinMode(6, OUTPUT);
-  pinMode(7, OUTPUT);
-  pinMode(3, OUTPUT);
-  pinMode(8, OUTPUT);
+  pinMode(12, OUTPUT);                    // Echolot connection OUTPUT
+  pinMode(11, INPUT);                     // Echolot connection INPUT
+  pinMode(6, OUTPUT);                     // LED Green connection OUTPUT
+  pinMode(7, OUTPUT);                     // LED Red connection OUTPUT
+  pinMode(3, OUTPUT);                     // Piezo Speaker connection OUTPUT
+  pinMode(8, OUTPUT);                     // Laser module S-6 connection OUTPUT
 }
 
 void loop() {
